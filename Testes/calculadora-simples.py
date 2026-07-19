@@ -9,8 +9,10 @@ def calcula_resultado(x, a, b):
     else:
         resultado = a / b
     print(f"O resultado da operação é: {resultado:.2f}")
+    print("-"*40)
 
 #INICIO DO PROGRAMA
+print("-"*40)
 operador = int(input("Escolha a operação que deseja realizar:\n1.+\n2.-\n3.*\n4./\n5.Para sair\n>>>"))
 while operador != 5:
     if 5>operador>0:
@@ -20,4 +22,5 @@ while operador != 5:
         calcula_resultado(operador, num1, num2)
     else:
         print("Está operação é invalida.")
+        print("-"*40)
     operador = int(input("Escolha a operação que deseja realizar:\n1.+\n2.-\n3.*\n4./\n5.Para sair\n>>>"))
