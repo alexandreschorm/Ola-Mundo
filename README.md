@@ -1,6 +1,3 @@
-# Olá, Mundo!
-Primeiro repositório do curso de Git e Github
-
-Repositório criado durante uma aula gravada do curso em vídeo!
-
-Essa linha eu adicionei direto do GitHub
+# Meu primeiro repositório!
+## Repositório criado para testar a linguagem markdown e o GitHub
+Meu primeiro teste foi uma calculadora simples em python que você pode acessar clicando aqui 
